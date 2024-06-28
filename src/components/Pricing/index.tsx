@@ -11,8 +11,8 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Рассчитать стоимость"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Какая вывеска Вас интересует?"
+          paragraph=""
           center
           width="665px"
         />
@@ -27,7 +27,7 @@ const Pricing = () => {
                   : "text-dark dark:text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
-              Monthly
+              При заказе от 3 вывесок
             </span>
             <div
               onClick={() => setIsMonthly(!isMonthly)}
@@ -52,50 +52,47 @@ const Pricing = () => {
                   : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
-              Yearly
+              1-2 вывески
             </span>
           </div>
         </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Объемные буквы"
+            price={isMonthly ? "4000" : "5000"}
+            duration="шт"
+            subtitle="Типовые параметры выввески."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Плоские буквы (толщина 3-15мм) ПВХ, акрил" status="active" />
+            <OfferList text="Буквы из пенопласта, пенополистирола (толщина 2-5см)" status="active" />
+            <OfferList text="Объемные клееные буквы из ПВХ (толщина 6-30см)" status="active" />
+            <OfferList text="Плоские буквы из оргстекла (толщина 3-20мм)" status="active" />
+     
           </PricingBox>
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Вывеска"
+            price={isMonthly ? "8000" : "9000"}
+            duration="шт"
+            subtitle="Вывески на кронштейне"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Плоские буквы (толщина 3-15мм) ПВХ, акрил" status="active" />
+            <OfferList text="Буквы из пенопласта, пенополистирола (толщина 2-5см)" status="active" />
+            <OfferList text="Объемные клееные буквы из ПВХ (толщина 6-30см)" status="active" />
+            <OfferList text="Плоские буквы из оргстекла (толщина 3-20мм)" status="active" />
+     
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Световой короб"
+            price={isMonthly ? "10000" : "12000"}
+            duration="шт"
+            subtitle="Типовые параметры выввески."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="Плоские буквы (толщина 3-15мм) ПВХ, акрил" status="active" />
+            <OfferList text="Буквы из пенопласта, пенополистирола (толщина 2-5см)" status="active" />
+            <OfferList text="Объемные клееные буквы из ПВХ (толщина 6-30см)" status="active" />
+            <OfferList text="Плоские буквы из оргстекла (толщина 3-20мм)" status="active" />
+     
           </PricingBox>
         </div>
       </div>

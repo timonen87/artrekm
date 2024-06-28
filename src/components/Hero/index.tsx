@@ -20,8 +20,8 @@ const Hero = () => {
                   <TypewriterComponent
                     options={{
                       strings: [
-                        "для взрывного",
-                        "роста",
+                        "для",
+                        "взрывного роста",
                         "Вашего бизнеса!",
                       ],
                       autoStart: true,

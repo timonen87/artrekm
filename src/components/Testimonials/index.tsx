@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Владимир Тимофеев",
+    designation: "22 марта 2020",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Оперативно просчитали наш заказ, сделали предложение в нескольких вариантах. Выполнили четко в срок. Качество супер. Отличная компания, всем рекомендуем!",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Сергей Еремеев",
+    designation: "14 февраля 2020",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Респект! Делал уже третий раз! Как всегда на высоте!",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Сергей Б.",
+    designation: "17 июня 2019",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Заказывал под ключ разработку дизайна, согласование вывески, производство. В этот же день было предложено 5 вариантов дизайна, понравились все, спасибо, но пришлось выбрать один. Согласование прошло за 15 дней. Сама вывеска очень яркая. Очень благодарен!",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="ОТЗЫВЫ НАШИХ КЛИЕНТОВ"
+          paragraph=""
           center
         />
 

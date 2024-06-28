@@ -167,7 +167,7 @@ const Header = () => {
                   Войти
                 </Link> */}
                 <Link
-                  href="/signup"
+                  href="/contact"
                   className=" ease-in-up hidden rounded-2xl bg-primary px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   Обратный звонок
