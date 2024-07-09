@@ -7,17 +7,17 @@ const AboutSectionTwo = () => {
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
             <div
-              className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
+              className="relative mx-auto mb-12 aspect-[25/24] max-w-[600px] text-center lg:m-0"
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
+                src="/images/about/main.png"
                 alt="about image"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="/images/about/about-image-2-dark.svg"
+                src="/images/about/main.png"
                 alt="about image"
                 fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
@@ -28,29 +28,26 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Экономия средств
+                Гарантия лучшей цены
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  На стадии проектирования мы заложим решения, которые удешевят
-                  Ваш проект в будущем
+                Мы уверены в своих ценах на 100%. Поэтому, если Вы нашли предложение дешевле чем у нас, обязательно сообщите, и мы сделаем Вам дополнительную персональную скидку.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Отсутствие допрасходов
+                Индивидуальный подход
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Проект, изготовление и монтаж одной компанией не приведёт к
-                  дополнительным сметам и расходам
+                Мы разрабатываем и просчитываем предложение именно под Ваши нужды и под Ваш бюджет. Вывеска — это очень индивидуальный продукт, и без индивидуально подхода здесь не обойтись. Консультация по 902 П.П. 
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Сроки от 3х дней
+                Изготовление вывески под ключ от 3 рабочих дней 
                 </h3>
                 <p className="text-base font-medium leading-relaxeыd text-body-color sm:text-lg sm:leading-relaxed">
-                  Спроектируем и изготовим Вашу вывеску за 2 дня, доставим и
-                  установим на следующий ден
+                Мы поддерживаем запас необходимого материала для обеспечения сроков производства на каждом этапе   
                 </p>
               </div>
             </div>

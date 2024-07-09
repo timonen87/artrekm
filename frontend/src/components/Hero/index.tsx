@@ -11,18 +11,20 @@ const Hero = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 mx-auto max-w-[800px] text-center">
-            <p className="mb-2 text-xl text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                Наши вывески - это
+            <p className="mb-2 text-3xl text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-3xl">
+            {/* Яркие световые вывески */}
                 </p>
-            <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl space-y-5 font-extrabold">
-                <h1>ИНСТРУМЕНТ</h1>
+            <div className="text-xl sm:text-3xl md:text-6xl lg:text-7xl space-y-5 font-extrabold">
+                {/* <h1>Яркие световые вывески </h1> */}
                 <div className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                   <TypewriterComponent
                     options={{
                       strings: [
-                        "для",
-                        "взрывного роста",
-                        "Вашего бизнеса!",
+                        "Изготовление из немецких материалов ",
+                        "Изготовление от 3 рабочих дней ",
+                        "Слушаем и предлагаем свои идеи",
+                        "Работаем по договору",
+                        "скидки для постоянных клиентов ",
                       ],
                       autoStart: true,
                       loop: true,

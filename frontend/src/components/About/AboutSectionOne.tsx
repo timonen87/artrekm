@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="О КОМПАНИИ."
-                paragraph="Компания Artrekm основана в 207 году и в настоящий момент специализируется на дизайне, проектировании и изготовлении вывесок. Мы являемся одной из ведущих компаний в Москве, которая профессионально занимается производством и монтажом рекламных конструкций."
+                paragraph=" Компания «ArtRekM» изготовит на заказ буквы любого шрифта, размера и цвета, с подсветкой или без. Наши мастера выполнят работу качественно, максимально соответствуя вашим пожеланиям и требованиям. Мы гордимся тем, что можем давать гарантии более 12 месяцев на то, что наша вывеска будет надежно установлена и не потеряет внешний вид за это время. "
                 mb="44px"
               />
 
@@ -52,13 +52,13 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/about/A_variant.png"
                   alt="about-image"
                   fill
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/about/about-image-dark.svg"
+                  src="/images/about/A_variant.png"
                   alt="about-image"
                   fill
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
