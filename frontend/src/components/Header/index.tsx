@@ -56,31 +56,22 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                {sticky ? (
-                  <Image
-                  src="/images/logo/logo.png"
+              {/* { sticky ?  <div className="mb-0 text-3xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">Artrekm.com</div> 
+              : <Image
+              src="/images/logo/logo-mini.png"
+              alt="logo"
+              width={70}
+              height={10}
+              className="w-full dark:hidden"
+            />}
+                <Image
+                  src="/images/logo/logo-mini.png"
                   alt="logo"
-                  width={110}
-                  height={40}
-                  className="w-full dark:hidden"
-                />
-                ) : (
-                  <Image
-                    src="/images/logo/logo.png"
-                    alt="logo"
-                    width={110}
-                    height={40}
-                    className="w-full dark:hidden"
-                  />
-                )}
-                {/* <Image
-                  src="/images/logo/logo.png"
-                  alt="logo"
-                  width={140}
-                  height={30}
+                  width={70}
+                  height={10}
                   className="hidden w-full dark:block"
                 /> */}
-                {/* <div className="mb-0 text-3xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">Artrekm.com</div> */}
+                <div className="mb-0 text-3xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">Artrekm.com</div>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
