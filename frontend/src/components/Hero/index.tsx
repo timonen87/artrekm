@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import TypewriterComponent from "typewriter-effect";
 const Hero = () => {
@@ -6,32 +7,38 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        // className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+      className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[20px] md:pt-[50px] xl:pb-[60px] xl:pt-[80px] 2xl:pb-[20px] 2xl:pt-[10px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 mx-auto max-w-[800px] text-center">
-            <p className="mb-2 text-3xl text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-3xl">
-            {/* Яркие световые вывески */}
-                </p>
-            <div className="text-xl sm:text-3xl md:text-6xl lg:text-7xl space-y-5 font-extrabold">
+            <div className="mx-auto w-full max-w-[800px] px-4 text-center">
+            <Image src='/images/main.png'width={1200} height={700} className="relative z-20 mr-10"  />
+              {/* <p className="mb-2 text-3xl text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-3xl">
+              <h1>ART REKM </h1>
+              </p> */}
+              <div className="space-y-5 text-xl font-extrabold sm:text-3xl md:text-6xl lg:text-7xl">
                 {/* <h1>Яркие световые вывески </h1> */}
-                <div className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+                <div className="bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
                   <TypewriterComponent
                     options={{
                       strings: [
-                        "Изготовление из немецких материалов ",
-                        "Изготовление от 3 рабочих дней ",
-                        "Слушаем и предлагаем свои идеи",
-                        "Работаем по договору",
-                        "скидки для постоянных клиентов ",
+                        // "Изготовление из немецких материалов ",
+                        // "Изготовление от 3 рабочих дней ",
+                        // "Слушаем и предлагаем свои идеи",
+                        // "Работаем по договору",
+                        // "скидки для постоянных клиентов ",
+                        "Производство",
+                        "Рекламного",
+                        "Материала",
                       ],
                       autoStart: true,
                       loop: true,
                     }}
                   />
                 </div>
-              {/* <div className="mx-auto max-w-[800px] text-center">
+                
+                {/* <div className="mx-auto max-w-[800px] text-center">
               
                 <p className="mb-2 text-xl text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                 Наши вывески - это
@@ -57,12 +64,53 @@ const Hero = () => {
                   </Link>
                 </div>
               </div> */}
-            </div>
+              </div>
             </div>
           </div>
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
-          <svg
+          {/* <svg
+            width="450"
+            height="556"
+            version="1.0"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 801.000000 895.000000"
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <g
+              transform="translate(0.000000,895.000000) scale(0.100000,-0.100000)"
+              fill="rgb(0,136,193)"
+              stroke="none"
+            >
+              <path
+                d="M4346 8940 c-33 -5 -968 -288 -2078 -627 l-2019 -618 183 -7 c340
+-12 602 -47 895 -118 951 -230 1797 -805 2373 -1611 76 -106 242 -369 252
+-400 5 -16 97 26 175 79 307 211 424 606 282 949 -93 222 -306 401 -546 459
+-72 18 -257 24 -308 10 -18 -4 -26 -4 -20 2 6 4 280 91 610 191 351 107 627
+197 666 217 185 93 333 270 399 479 30 95 38 272 17 372 -34 160 -98 273 -222
+398 -73 73 -108 100 -182 138 -150 77 -329 110 -477 87z"
+              />
+              <path
+                d="M7060 4855 c-284 -64 -483 -211 -595 -441 -55 -112 -77 -210 -77
+-344 0 -309 162 -570 437 -704 126 -61 173 -71 345 -71 143 0 162 2 245 28
+104 33 210 84 277 133 130 96 242 263 289 430 29 101 32 284 6 388 -68 272
+-290 498 -562 572 -84 22 -283 28 -365 9z"
+              />
+              <path
+                d="M5226 4280 c-26 -5 -214 -59 -418 -121 l-369 -113 8 -115 c14 -206 8
+-661 -11 -821 -28 -234 -103 -602 -146 -714 -6 -16 -9 -30 -7 -32 2 -2 304 89
+673 201 452 139 695 218 749 244 193 95 336 269 401 486 35 118 38 288 6 406
+-73 270 -282 482 -554 559 -82 24 -254 34 -332 20z"
+              />
+              <path
+                d="M4255 2278 c-69 -212 -235 -578 -356 -784 -250 -425 -594 -823 -981
+-1132 -59 -47 -106 -88 -104 -89 2 -2 403 118 892 267 599 183 915 284 969
+311 362 176 532 617 382 989 -117 290 -406 489 -709 490 l-76 0 -17 -52z"
+              />
+            </g>
+          </svg> */}
+
+          {/* <svg
             width="450"
             height="556"
             viewBox="0 0 450 556"
@@ -197,10 +245,61 @@ const Hero = () => {
                 <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
               </linearGradient>
             </defs>
-          </svg>
+          </svg> */}
         </div>
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
-          <svg
+          {/* <svg
+            width="764"
+            height="201"
+            version="1.0"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 724.000000 886.000000"
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <g
+              transform="translate(0.000000,886.000000) scale(0.100000,-0.100000)"
+              fill="rgb(0,136,193)"
+              stroke="none"
+            >
+              <path
+                d="M5105 8469 c-374 -115 -842 -259 -1040 -319 -198 -61 -393 -126 -433
+-146 -320 -156 -496 -532 -412 -884 66 -276 294 -505 570 -574 82 -21 219 -30
+289 -19 l54 8 76 190 c86 213 160 367 254 532 312 541 733 996 1261 1361 49
+34 83 62 75 61 -8 -1 -320 -95 -694 -210z"
+              />
+              <path
+                d="M1925 7486 c-275 -72 -441 -200 -556 -429 -54 -106 -79 -217 -79
+-347 0 -141 20 -225 79 -345 98 -198 254 -332 466 -401 64 -21 105 -27 210
+-31 116 -4 141 -2 230 21 147 38 285 109 378 196 290 271 339 685 121 1015
+-110 169 -287 288 -486 329 -113 23 -254 20 -363 -8z"
+              />
+              <path
+                d="M3895 6454 c-115 -36 -379 -117 -585 -180 -206 -63 -408 -130 -448
+-150 -153 -75 -274 -198 -352 -359 -59 -123 -80 -212 -80 -348 0 -297 166
+-561 435 -692 50 -24 119 -51 154 -60 84 -21 221 -29 294 -17 32 5 55 6 50 2
+-4 -4 -240 -78 -523 -165 -283 -86 -547 -172 -586 -190 -294 -140 -478 -477
+-436 -795 45 -332 279 -592 605 -670 98 -24 234 -26 327 -5 48 10 1548 464
+1617 490 7 2 -15 60 -62 162 -371 804 -475 1686 -300 2558 27 138 97 407 122
+471 8 21 -4 18 -232 -52z"
+              />
+              <path
+                d="M690 3815 c-178 -38 -320 -108 -431 -213 -92 -86 -156 -178 -199
+-284 -177 -444 78 -930 550 -1049 71 -18 104 -21 210 -17 105 5 141 11 225 38
+209 67 350 172 458 341 141 221 159 508 47 748 -97 206 -290 366 -515 426 -83
+23 -263 28 -345 10z"
+              />
+              <path
+                d="M4462 3048 c-49 -120 -65 -213 -60 -347 4 -90 11 -134 32 -196 72
+-212 203 -362 401 -460 132 -66 195 -80 357 -80 75 0 136 -1 135 -1 -1 -1
+-315 -97 -697 -214 -382 -117 -724 -223 -759 -236 -229 -86 -412 -297 -477
+-549 -24 -94 -24 -265 0 -360 24 -96 95 -238 155 -312 172 -210 462 -324 716
+-281 112 19 3581 1079 3563 1089 -7 3 -62 9 -123 13 -133 8 -347 38 -510 72
+-681 142 -1323 459 -1850 915 -149 129 -396 386 -519 539 -105 131 -228 307
+-299 424 l-35 57 -30 -73z"
+              />
+            </g>
+          </svg> */}
+          {/* <svg
             width="364"
             height="201"
             viewBox="0 0 364 201"
@@ -300,7 +399,7 @@ const Hero = () => {
                 <stop offset="1" stopColor="white" stopOpacity="0.08" />
               </radialGradient>
             </defs>
-          </svg>
+          </svg> */}
         </div>
       </section>
     </>
