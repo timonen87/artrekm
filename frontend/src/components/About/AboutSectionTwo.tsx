@@ -10,17 +10,19 @@ const AboutSectionTwo = () => {
               className="relative mx-auto mb-12 aspect-[25/24] max-w-[600px] text-center lg:m-0"
               data-wow-delay=".15s"
             >
-              <Image
+              {/* <Image
                 src="/images/about/main.png"
                 alt="about image"
-                fill
+              
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
-              />
-              <Image
+                width={700} height={450}
+              /> */}
+             <Image
                 src="/images/about/main.png"
                 alt="about image"
-                fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
+              
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                width={700} height={450}
               />
             </div>
           </div>

@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
+import ContactList from "@/components/Contact/ContactList";
 
 import { Metadata } from "next";
 
@@ -13,11 +14,12 @@ const ContactPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Контакты"
+        description=""
       />
+       <Contact />
+      
 
-      <Contact />
     </>
   );
 };

@@ -56,7 +56,7 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-              {/* { sticky ?  <div className="mb-0 text-3xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">Artrekm.com</div> 
+                {/* { sticky ?  <div className="mb-0 text-3xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">Artrekm.com</div> 
               : <Image
               src="/images/logo/logo-mini.png"
               alt="logo"
@@ -71,7 +71,9 @@ const Header = () => {
                   height={10}
                   className="hidden w-full dark:block"
                 /> */}
-                <div className="mb-0 text-3xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">Artrekm.com</div>
+                <div className="mb-0 text-3xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">
+                  Artrekm.com
+                </div>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
@@ -161,12 +163,43 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-                {/* <Link
-                  href="/signin"
+                <Link
+                  href="https://te.me"
                   className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
+                  target="true"
                 >
-                  Войти
-                </Link> */}
+                  <svg
+                    width="40"
+                    height="41"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="14"
+                      fill="url(#paint0_linear_87_7225)"
+                    />
+                    <path
+                      d="M22.9866 10.2088C23.1112 9.40332 22.3454 8.76755 21.6292 9.082L7.36482 15.3448C6.85123 15.5703 6.8888 16.3483 7.42147 16.5179L10.3631 17.4547C10.9246 17.6335 11.5325 17.541 12.0228 17.2023L18.655 12.6203C18.855 12.4821 19.073 12.7665 18.9021 12.9426L14.1281 17.8646C13.665 18.3421 13.7569 19.1512 14.314 19.5005L19.659 22.8523C20.2585 23.2282 21.0297 22.8506 21.1418 22.1261L22.9866 10.2088Z"
+                      fill="white"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_87_7225"
+                        x1="16"
+                        y1="2"
+                        x2="16"
+                        y2="30"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#37BBFE" />
+                        <stop offset="1" stop-color="#007DBB" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </Link>
                 <Link
                   href="/contact"
                   className=" ease-in-up hidden rounded-2xl bg-primary px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover md:block md:px-9 lg:px-6 xl:px-9"

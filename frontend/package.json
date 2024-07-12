@@ -9,14 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@pbe/react-yandex-maps": "^1.2.5",
+    "dv-social-share": "^0.0.7",
     "eslint": "^8.56.0",
     "eslint-config-next": "^14.1.0",
     "next": "^14.1.0",
+    "next-share": "^0.27.0",
     "next-themes": "^0.2.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-modal-video": "^2.0.1",
-    "typewriter-effect": "^2.21.0"
+    "typewriter-effect": "^2.21.0",
+    "ymaps": "^0.2.1"
   },
   "devDependencies": {
     "@types/node": "^20.8.9",

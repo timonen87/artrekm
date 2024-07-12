@@ -19,18 +19,18 @@ const Hero = () => {
               </p> */}
               <div className="space-y-5 text-xl font-extrabold sm:text-3xl md:text-6xl lg:text-7xl">
                 {/* <h1>Яркие световые вывески </h1> */}
-                <div className="bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
+                <div className="bg-gradient-to-r from-blue-800 bg-clip-text text-transparent lg:text-2xl">
                   <TypewriterComponent
                     options={{
                       strings: [
-                        // "Изготовление из немецких материалов ",
-                        // "Изготовление от 3 рабочих дней ",
-                        // "Слушаем и предлагаем свои идеи",
-                        // "Работаем по договору",
-                        // "скидки для постоянных клиентов ",
-                        "Производство",
-                        "Рекламного",
-                        "Материала",
+                        "Изготовление из немецких материалов ",
+                        "Изготовление от 3 рабочих дней ",
+                        "Слушаем и предлагаем свои идеи",
+                        "Работаем по договору",
+                        "скидки для постоянных клиентов ",
+                        // "Производство",
+                        // "Рекламного",
+                        // "Материала",
                       ],
                       autoStart: true,
                       loop: true,
@@ -110,7 +110,7 @@ const Hero = () => {
             </g>
           </svg> */}
 
-          {/* <svg
+          <svg
             width="450"
             height="556"
             viewBox="0 0 450 556"
@@ -245,7 +245,7 @@ const Hero = () => {
                 <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
               </linearGradient>
             </defs>
-          </svg> */}
+          </svg>
         </div>
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           {/* <svg
@@ -299,7 +299,7 @@ const Hero = () => {
               />
             </g>
           </svg> */}
-          {/* <svg
+          <svg
             width="364"
             height="201"
             viewBox="0 0 364 201"
@@ -399,7 +399,7 @@ const Hero = () => {
                 <stop offset="1" stopColor="white" stopOpacity="0.08" />
               </radialGradient>
             </defs>
-          </svg> */}
+          </svg>
         </div>
       </section>
     </>
