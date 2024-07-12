@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="mx-auto w-full max-w-[800px] px-4 text-center">
-            <Image src='/images/main.png'width={1200} height={700} className="relative z-20 mr-10"  />
+            <Image src='/images/main.png'width={1200} height={700} className="relative z-20 mr-10"  alt="main" />
               {/* <p className="mb-2 text-3xl text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-3xl">
               <h1>ART REKM </h1>
               </p> */}
