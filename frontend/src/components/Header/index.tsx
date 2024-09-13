@@ -49,29 +49,30 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className="w-30 h-30 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                {/* { sticky ?  <div className="mb-0 text-3xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">Artrekm.com</div> 
+                {/* { sticky ?  <div className="mb-0 text-2xl font-bold leading-tight text-black dark:text-white sm:text-xl sm:leading-tight md:text-3xl md:leading-tight">ClubSmilik.ru</div> 
               : <Image
-              src="/images/logo/logo-mini.png"
+              src="/images/logo/logo.webp"
               alt="logo"
-              width={70}
-              height={10}
+              width={45}
+              height={45}
               className="w-full dark:hidden"
-            />}
-                <Image
-                  src="/images/logo/logo-mini.png"
+            />
+            } */}
+                {/* <Image
+                  src="/images/logo/logo.webp"
                   alt="logo"
-                  width={70}
-                  height={10}
+                  width={30}
+                  height={30}
                   className="hidden w-full dark:block"
                 /> */}
-                <div className="mb-0 text-3xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">
+                <div className="text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-pink-600 sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">
                 ClubSmilik.ru
                 </div>
               </Link>
