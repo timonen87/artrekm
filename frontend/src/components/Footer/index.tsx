@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="mb-2 max-w-[360px] lg:mb-6">
                 <Link href="/" className=" inline-block">
                   <div className="mb-0 text-3xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">
-                    Artrekm.com
+                  ClubSmilik.ru
                   </div>
                   {/* <Image
                     src="/images/logo/logo-2.svg"
@@ -30,8 +30,7 @@ const Footer = () => {
                   /> */}
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Компания ArtRekm специализируется на дизайне, проектировании и
-                  изготовлении вывесок.
+                Гармоничное развитие ребёнка
                 </p>
               
               </div>
@@ -44,7 +43,7 @@ const Footer = () => {
                   className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                 >
                   <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                    Проекты
+                    О нас
                   </h2>
                 </Link>
 
@@ -53,7 +52,7 @@ const Footer = () => {
             </div>
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
+              <div className="mb-2 lg:mb-6">
                 {/* <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Ссылки
                 </h2> */}
@@ -62,7 +61,7 @@ const Footer = () => {
                   className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                 >
                   <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                    Услуги
+                    Программы
                   </h2>
                 </Link>
                 {/* <ul>
@@ -95,7 +94,7 @@ const Footer = () => {
             </div>
 
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
-              <div className="mb-12 lg:mb-16">
+              <div className="mb-2 lg:mb-6">
           
                 <Link
                   href="/contact"
@@ -150,7 +149,7 @@ const Footer = () => {
                       </defs>
                     </svg>
                   </Link></div>
-              <div>Artrekm.com{" "}</div>
+              <div>ClubSmilik.ru{" "}</div>
             
             </p>
           </div>
