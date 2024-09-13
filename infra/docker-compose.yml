@@ -44,7 +44,7 @@ services:
     # ports:
     #   - '3033:3000'
     expose:
-      - '8080'
+      - '8030'
     env_file:
       - ./.env
     volumes:
@@ -58,7 +58,7 @@ services:
       context: ./nginx
       dockerfile: Dockerfile
     ports:
-      - "8080:80"
+      - "8030:8030"
       - "443:443"
     volumes:
       - ./nginx/:/etc/nginx/templates:rw
