@@ -43,8 +43,8 @@ services:
       dockerfile: Dockerfile
     # ports:
     #   - '3033:3000'
-    expose:
-      - '8030'
+    # expose:
+    #   - '8030'
     env_file:
       - ./.env
     volumes:
