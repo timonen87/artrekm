@@ -14,11 +14,11 @@ const Blog = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Программы"
+        pageName="Летние программы"
         description=""
       />
 
-      <section className="pb-[120px] pt-[120px]">
+      <section className="pb-[60px] pt-[60px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             {blogData.map((blog) => (
@@ -39,7 +39,7 @@ const Blog = () => {
                     href="#0"
                     className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
                   >
-                    Prev
+                    Назад
                   </a>
                 </li>
                 <li className="mx-1">
@@ -84,7 +84,7 @@ const Blog = () => {
                     href="#0"
                     className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
                   >
-                    Next
+                    Вперед
                   </a>
                 </li>
               </ul>

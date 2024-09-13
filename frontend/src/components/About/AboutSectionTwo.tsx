@@ -18,7 +18,7 @@ const AboutSectionTwo = () => {
                 width={700} height={450}
               /> */}
              <Image
-                src="/images/about/main.png"
+                src="/images/about/amara-blogs-simple-world-map-of-the.webp"
                 alt="about image"
               
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
@@ -30,26 +30,63 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                Гарантия лучшей цены
+                Учителя английского языка:
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                Мы уверены в своих ценах на 100%. Поэтому, если Вы нашли предложение дешевле чем у нас, обязательно сообщите, и мы сделаем Вам дополнительную персональную скидку.
-                </p>
+                Туряница Елена Геннадьевна</p>
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                Завалий Анна Валериевна</p>
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                Кудрявцева Мария Сергеевна</p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                Индивидуальный подход
+                Учитель русского языка и литературы:
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                Мы разрабатываем и просчитываем предложение именно под Ваши нужды и под Ваш бюджет. Вывеска — это очень индивидуальный продукт, и без индивидуально подхода здесь не обойтись. Консультация по 902 П.П. 
+               Водолазская Светлана Васильевна</p>
+              </div>
+              <div className="mb-1">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                Учитель испанского языка:
+                </h3>
+                <p className="text-base font-medium leading-relaxeыd text-body-color sm:text-lg sm:leading-relaxed">
+                Завалий Анна Валериевна  
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                Изготовление вывески под ключ от 3 рабочих дней 
+                Учитель немецкого языка:
                 </h3>
                 <p className="text-base font-medium leading-relaxeыd text-body-color sm:text-lg sm:leading-relaxed">
-                Мы поддерживаем запас необходимого материала для обеспечения сроков производства на каждом этапе   
+                Рыбакова Анна Юрьевна  
+                </p>
+              </div>
+              <div className="mb-1">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                Учитель истории и обществознания:
+                </h3>
+                <p className="text-base font-medium leading-relaxeыd text-body-color sm:text-lg sm:leading-relaxed">
+                Русакова Елена Васильевна 
+                </p>
+              </div>
+              <div className="mb-1">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                Руководитель изо-студии:
+                </h3>
+                <p className="text-base font-medium leading-relaxeыd text-body-color sm:text-lg sm:leading-relaxed">
+                Балабанова Галина Вячеславовна
+                </p>
+              </div>
+              <div className="mb-1">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                Учителя по подготовке к школе:
+                </h3>
+                <p className="text-base font-medium leading-relaxeыd text-body-color sm:text-lg sm:leading-relaxed">
+                Бежина Елена Вячеславовна
+                </p>
+                <p className="text-base font-medium leading-relaxeыd text-body-color sm:text-lg sm:leading-relaxed">
+                Сидоренко Наталья Петровна
                 </p>
               </div>
             </div>

@@ -21,11 +21,11 @@ const ContactList = () => {
               </div>
               <div className="w-full">
                 <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
-                  Москва
+                Московская область
+                
                 </h4>
                 <p className="dark:text-dark-6 text-base text-body-color">
-                  ул, Электрозаводская 21 (производство) ул, Проектируемый
-                  проезд 3683 д. 4 стр, 18
+                г. Наро-Фоминск, ул. Шибанкова, д. 38
                 </p>
               </div>
             </div>
@@ -62,13 +62,13 @@ const ContactList = () => {
               </div>
               <div className="w-full">
                 <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
-                  Mенеджеры по заказу
+                Звоните нам:
                 </h4>
+                {/* <p className="dark:text-dark-6 text-base text-body-color">
+                  Зинаида: +7 (496)- 344-10-43
+                </p> */}
                 <p className="dark:text-dark-6 text-base text-body-color">
-                  Зинаида: +7 (926) 801 08 88
-                </p>
-                <p className="dark:text-dark-6 text-base text-body-color">
-                  Андрей: +7 (964) 565 79 25
+                Звоните нам: +7 (496)- 344-10-43
                 </p>
               </div>
             </div>
@@ -93,7 +93,7 @@ const ContactList = () => {
                   Email
                 </h4>
                 <p className="dark:text-dark-6 text-base text-body-color">
-                  Artrekm@yandex.ru
+                elenaturyan@gmail.com
                 </p>
               </div>
             </div>

@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="О КОМПАНИИ"
-                paragraph=" Компания «ArtRekM» изготовит на заказ буквы любого шрифта, размера и цвета, с подсветкой или без. Наши мастера выполнят работу качественно, максимально соответствуя вашим пожеланиям и требованиям. Мы гордимся тем, что можем давать гарантии более 12 месяцев на то, что наша вывеска будет надежно установлена и не потеряет внешний вид за это время. "
+                title="Наше кредо: "
+                paragraph='Ребенок - центр ответственного процесса образования. В нашем детском клубе "Смайлик" мы помогаем детям получить дополнительные знания по школьной программе. Поэтому мы стараемся создать благопритную образовательную среду,ориентированную на потребности ребенка и способствующую его гармоничному развитию и эмоциональному благополучию. Еще очень важна позитивная обстановка в коллективе, которая помогает ученику свободно развивать свой личностный потенциал. '
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Магазины" />
-                    <List text="Салоны красоты" />
-                    <List text="Бары/ Клубы" />
+                    <List text="Учителя английского языка" />
+                    <List text="Учитель испанского языка" />
+                    <List text="Учитель немецкого языка" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Торговые центры" />
-                    <List text="Аптеки" />
-                    <List text="Фитнес центры" />
+                    <List text="Учитель русского языка и литературы" />
+                    <List text="Учитель истории и обществознания" />
+                    <List text="Руководитель изо-студии" />
                   </div>
                 </div>
               </div>
@@ -52,13 +52,13 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/about/A_variant.png"
+                  src="/images/about/about_main.webp"
                   alt="about-image"
                   fill
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/about/A_variant.png"
+                  src="/images/about/about_main.webp"
                   alt="about-image"
                   fill
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"

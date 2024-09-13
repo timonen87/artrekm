@@ -4,6 +4,8 @@ import Image from "next/image";
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 
+
+import TypewriterComponent from "typewriter-effect";
 import ModalVideo from "react-modal-video";
 
 const Video = () => {
@@ -12,15 +14,37 @@ const Video = () => {
   return (
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
-        <SectionTitle
-          title="ГАРАНТИЯ
-          ЦЕНЫ И КАЧЕСТВА"
-          paragraph="Мы даем гарантию, все непредусмотренные расходы компенсируем за свой счет!
-          Несем финансовую ответственность
-          по всем договорным обязательствам.."
+        {/* <SectionTitle
+          title="Гармоничное развитие ребёнка "
+          paragraph=''
           center
-          mb="80px"
-        />
+          mb="0px"
+        /> */}
+         
+                <div className="text-white font-bold py-24 text-center space-y-5">
+      <div className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl space-y-5 font-extrabold">
+        <h1 className='text-blue-800'>Гармоничное развитие ребёнка</h1>
+        <div className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+          <TypewriterComponent
+            options={{
+              strings: [
+                "Мы знаем, как достичь этого! ",
+                "Занятия в удобное для Вас время ",
+                "Языковые курсы",
+                "Подготовка к школе",
+                "ЕГЭ и ГИА",
+          
+              ],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </div>
+      </div>
+      </div>
+                
+
+                
 
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -29,7 +53,7 @@ const Video = () => {
               data-wow-delay=".15s"
             >
               <div className="relative aspect-[77/40] items-center justify-center">
-                <Image src="/images/video/video.jpg" alt="video image" fill />
+                <Image src="/images/hero/hero-main.webp" alt="video image" fill />
                 <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">
                   <button
                     aria-label="video play button"

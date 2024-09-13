@@ -28,9 +28,7 @@ const Hero = () => {
                         "Слушаем и предлагаем свои идеи",
                         "Работаем по договору",
                         "скидки для постоянных клиентов ",
-                        // "Производство",
-                        // "Рекламного",
-                        // "Материала",
+                    
                       ],
                       autoStart: true,
                       loop: true,
@@ -38,77 +36,13 @@ const Hero = () => {
                   />
                 </div>
                 
-                {/* <div className="mx-auto max-w-[800px] text-center">
-              
-                <p className="mb-2 text-xl text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                Наши вывески - это
-                </p>
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                ИНСТРУМЕНТ
-                </h1>
-                <div className="mb-12">
-                <Link
-                    href="/"
-                    className="mb-12 rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                    🔥 для взрывного роста 
-                  </Link>
-                  </div>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  
-                  <Link
-                    href="https://github.com/NextJSTemplates/startup-nextjs"
-                    className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
-                  >
-                    Узнать стоимость
-                  </Link>
-                </div>
-              </div> */}
+             
               </div>
             </div>
           </div>
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
-          {/* <svg
-            width="450"
-            height="556"
-            version="1.0"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 801.000000 895.000000"
-            preserveAspectRatio="xMidYMid meet"
-          >
-            <g
-              transform="translate(0.000000,895.000000) scale(0.100000,-0.100000)"
-              fill="rgb(0,136,193)"
-              stroke="none"
-            >
-              <path
-                d="M4346 8940 c-33 -5 -968 -288 -2078 -627 l-2019 -618 183 -7 c340
--12 602 -47 895 -118 951 -230 1797 -805 2373 -1611 76 -106 242 -369 252
--400 5 -16 97 26 175 79 307 211 424 606 282 949 -93 222 -306 401 -546 459
--72 18 -257 24 -308 10 -18 -4 -26 -4 -20 2 6 4 280 91 610 191 351 107 627
-197 666 217 185 93 333 270 399 479 30 95 38 272 17 372 -34 160 -98 273 -222
-398 -73 73 -108 100 -182 138 -150 77 -329 110 -477 87z"
-              />
-              <path
-                d="M7060 4855 c-284 -64 -483 -211 -595 -441 -55 -112 -77 -210 -77
--344 0 -309 162 -570 437 -704 126 -61 173 -71 345 -71 143 0 162 2 245 28
-104 33 210 84 277 133 130 96 242 263 289 430 29 101 32 284 6 388 -68 272
--290 498 -562 572 -84 22 -283 28 -365 9z"
-              />
-              <path
-                d="M5226 4280 c-26 -5 -214 -59 -418 -121 l-369 -113 8 -115 c14 -206 8
--661 -11 -821 -28 -234 -103 -602 -146 -714 -6 -16 -9 -30 -7 -32 2 -2 304 89
-673 201 452 139 695 218 749 244 193 95 336 269 401 486 35 118 38 288 6 406
--73 270 -282 482 -554 559 -82 24 -254 34 -332 20z"
-              />
-              <path
-                d="M4255 2278 c-69 -212 -235 -578 -356 -784 -250 -425 -594 -823 -981
--1132 -59 -47 -106 -88 -104 -89 2 -2 403 118 892 267 599 183 915 284 969
-311 362 176 532 617 382 989 -117 290 -406 489 -709 490 l-76 0 -17 -52z"
-              />
-            </g>
-          </svg> */}
+
 
           <svg
             width="450"

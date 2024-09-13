@@ -13,55 +13,47 @@ const menuData: Menu[] = [
     path: "/about",
     newTab: false,
   },
-  // {
-  //   id: 33,
-  //   title: "Проекты",
-  //   path: "/blog",
-  //   newTab: false,
-  // },
-  {
-    id: 39,
-    title: "Калькулятор",
-    path: "/calc",
-    newTab: false,
-  },
+
+
   {
     id: 3,
-    title: "Услуги",
+    title: "Учебные программы",
     newTab: false,
     submenu: [
       {
         id: 41,
-        title: "Объемные буквы",
-        path: "/blog-details",
+        title: "Языковые программы",
+        path: "/programms",
         newTab: false,
       },
       {
         id: 42,
-        title: "Буквы с подсветкой",
-        path: "/contact",
+        title: "Подготовка к ЕГЭ и ГИА",
+        path: "/programm-details",
         newTab: false,
       },
       {
         id: 43,
-        title: "Дизайн вывески",
-        path: "/blog",
+        title: "Подготовка к школе",
+        path: "/programm-details",
         newTab: false,
       },
       {
         id: 44,
-        title: "Led панели",
-        path: "/blog-sidebar",
+        title: "Летние программы",
+        path: "/summerprogram",
         newTab: false,
       },
-      {
-        id: 45,
-        title: "Световые короба",
-        path: "/blog-details",
-        newTab: false,
-      },
+      
      
     ],
+    
+  },
+  {
+    id: 42,
+    title: "Контакты",
+    path: "/contact",
+    newTab: false,
   },
   
   // {
@@ -75,12 +67,7 @@ const menuData: Menu[] = [
   //       path: "/about",
   //       newTab: false,
   //     },
-  //     {
-  //       id: 42,
-  //       title: "Contact Page",
-  //       path: "/contact",
-  //       newTab: false,
-  //     },
+
   //     {
   //       id: 43,
   //       title: "Blog Grid Page",

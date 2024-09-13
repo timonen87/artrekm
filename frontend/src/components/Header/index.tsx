@@ -72,7 +72,7 @@ const Header = () => {
                   className="hidden w-full dark:block"
                 /> */}
                 <div className="mb-0 text-3xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">
-                  Artrekm.com
+                ClubSmilik.ru
                 </div>
               </Link>
             </div>
@@ -201,10 +201,10 @@ const Header = () => {
                   </svg>
                 </Link>
                 <Link
-                  href="/contact"
+                  href="tel:+74963441043"
                   className=" ease-in-up hidden rounded-2xl bg-primary px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover md:block md:px-9 lg:px-6 xl:px-9"
                 >
-                  Обратный звонок
+                 +7 (496)- 344-10-43
                 </Link>
                 <div>
                   <ThemeToggler />
