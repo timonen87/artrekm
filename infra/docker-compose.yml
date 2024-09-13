@@ -4,36 +4,36 @@ version: '3.9'
 
 services:
 
-  # db:
-  #   image: postgres:latest
-  #   restart: unless-stopped
-  #   volumes:
-  #     - postgresql_volume:/var/lib/postgresql/data/:rw
-  #   env_file:
-  #     - ./.env
-  #   healthcheck:
-  #     test: ["CMD-SHELL", "pg_isready -h ${POSTGRES_HOST} -p ${POSTGRES_PORT} -U ${POSTGRES_USER}"]
-  #     interval: 10s
-  #     timeout: 5s
-  #     retries: 5
+  db:
+    image: postgres:latest
+    restart: unless-stopped
+    volumes:
+      - postgresql_volume:/var/lib/postgresql/data/:rw
+    env_file:
+      - ./.env
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h ${POSTGRES_HOST} -p ${POSTGRES_PORT} -U ${POSTGRES_USER}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
 
-  # backend:
-  #   restart: always
-  #   container_name: backend
-  #   build:
-  #     context: ../backend
-  #     dockerfile: Dockerfile
-  #   entrypoint: [ "sh", "-c", "python manage.py migrate && python manage.py collectstatic --noinput && gunicorn --bind 0.0.0.0:8000 backend.wsgi:application" ]
-  #   depends_on:
-  #     - db
-  #   env_file:
-  #     - ./.env
-  #   volumes:
-  #     - static_volume:/app/static/:rw
-  #     - media_volume:/app/media/:rw
-  #   ports:
-  #     - "8000:8000"
+  backend:
+    restart: always
+    container_name: backend
+    build:
+      context: ../backend
+      dockerfile: Dockerfile
+    entrypoint: [ "sh", "-c", "python manage.py migrate && python manage.py collectstatic --noinput && gunicorn --bind 0.0.0.0:8000 backend.wsgi:application" ]
+    depends_on:
+      - db
+    env_file:
+      - ./.env
+    volumes:
+      - static_volume:/app/static/:rw
+      - media_volume:/app/media/:rw
+    ports:
+      - "8000:8000"
 
 
 
@@ -43,8 +43,8 @@ services:
       dockerfile: Dockerfile
     # ports:
     #   - '3033:3000'
-    # expose:
-    #   - '8030'
+    expose:
+      - '8030'
     env_file:
       - ./.env
     volumes:
@@ -58,7 +58,7 @@ services:
       context: ./nginx
       dockerfile: Dockerfile
     ports:
-      - "8030:8030"
+      - "8030:80"
       - "1443:443"
     volumes:
       - ./nginx/:/etc/nginx/templates:rw
